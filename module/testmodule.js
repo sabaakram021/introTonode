@@ -1,4 +1,8 @@
-let calc=require("./calculator.js");
-console.log(calc.addition(10,20));
-console.log(calc.subtraction(10,20));
-console.log(calc.multiplication(10,20));
+// let cal=require("./calculator");
+// console.log(cal.addition(2,3));
+
+let fs=require('fs');
+let path=require('path');
+
+// fs.mkdirSync('new_folder');
+fs.copyFileSync()
